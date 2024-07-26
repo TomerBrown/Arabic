@@ -1,0 +1,43 @@
+.boxes-container{
+    display: flex;
+    flex-direction: column;
+    height: 80vh;
+    gap: 50px;
+    margin: 0 20px;
+    max-height: 70vh;
+}
+
+.input-container {
+    height: 40%;
+}
+
+.site-title {
+    font-size: 5rem;
+    font-weight: bold;
+    margin: 20px;
+    text-align: center;
+}
+
+.output-container {
+    background-color: ghostwhite;
+    border-radius: 20px;
+    border: 1px solid lightgray;
+    direction: rtl;
+    font-size: 20px;
+    min-height: 40%;
+    padding: .375rem .75rem;
+    text-align: right;
+    white-space: pre-line;
+}
+.form-control {
+    resize: none;
+    border-radius: 20px;
+    background-color: ghostwhite;
+    height: 40%;
+    font-size:22px;
+    direction: rtl;
+}
+
+#input_container{
+    height: 100%;
+}
